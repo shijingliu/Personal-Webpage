@@ -1,0 +1,26 @@
+@charset "utf-8";
+/* CSS Document */
+* { padding: 0; margin: 0; }
+li { list-style: none; }
+img { border: none; }
+body {background:url(images/background3.png) no-repeat center -50px; }
+
+#logo { width: 450px; height: 150px;  position: absolute; top: 30px; left: 6%; overflow: hidden; }
+#logo li{position:abosolute}
+
+#catalog {position:absolute; top:180px; left: 7%; width:100%;}
+#catalog img {border:none;}
+#catalog .box {display:block; width:400px; margin:0 auto; border-bottom:dotted 1px black; text-decoration:none; color:#333;}
+#catalog .box:hover {border-bottom:solid 1px black;}
+
+#Smoke{position: absolute; top: 330px; left: 14%; overflow: hidden; }
+
+#SmokeIntro { width: 700px; position: absolute; top: 760px; left: 10%;}
+#SmokeIntro a{position:abosolute}
+
+#footer { width: 970px; height: 30px; text-align: center; padding-top: 50px; margin: 0 auto; }
+#footer a { color: #930; font-family: arial; font-size: 15px; text-decoration: none; border-bottom: 1px dotted #930; }
+#footer a:hover { border-bottom: 1px solid #930; }
+
+
+

@@ -1,0 +1,35 @@
+@charset "utf-8";
+/* CSS Document */
+
+* { padding: 0; margin: 0; }
+li { list-style: none; }
+img { border: none; }
+body {background:url(images/background3.png) no-repeat center -50px; }
+
+#logo { width: 450px; height: 150px;  position: absolute; top: 30px; left: 24%; overflow: hidden; }
+#logo li{position:abosolute}
+
+#content { width: 960px; height: 600px;  position: relative; top: -310px; left: 24%; overflow: hidden; }
+#content li{position:abosolute}
+
+#catalog {position:absolute; top:180px; left: 25%; width:100%;}
+#catalog img {border:none;}
+#catalog .box {display:block; width:400px; margin:0 auto; border-bottom:dotted 1px black; text-decoration:none; color:#333;}
+#catalog .box:hover {border-bottom:solid 1px black;}
+
+#box { width: 600px; height: 218px; no-repeat; position: absolute; top: 13%; left: 35%; margin: 180px 0 0 -90px; }
+#box a { text-decoration: none; }
+#box ul { width: 690px; height: 65px; position: absolute; top: 50%; left: 50%; margin: -30px 0 0 -245px; }
+#box li { width: 163px; height: 65px; float: left; background: url(images/btn.png) no-repeat; position: relative; }
+#box img { position: absolute; left: 50%; bottom: 8px; z-index: 3; width: 0; margin-left: 0; }
+#box li a { width: 152px; height: 34px; padding-top: 8px; text-align: center; font-size: 12px; font-weight: bold; font-family: arial; color: #fff; line-height: 18px; position: absolute; top: 4px; left: 4px; z-index: 2; }
+#box li a span { color:#000000; font: font-weight:bold; font-size: 20px; }
+#box .bg { width: 152px; height: 0px; background:#003399; position: absolute; left: 4px; top: 56px; z-index: 1; overflow:hidden; }
+
+
+
+#footer { width: 970px; height: 30px; text-align: center; padding-top: 50px; margin: 0 auto; }
+#footer a { color: #930; font-family: arial; font-size: 15px; text-decoration: none; border-bottom: 1px dotted #930; }
+#footer a:hover { border-bottom: 1px solid #930; }
+
+
